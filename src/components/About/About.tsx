@@ -7,7 +7,7 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../../assets/SivaprasadAluri_Resume.pdf"; // Ensure this file is in the "public" folder
+    link.href = "../../../public/SivaprasadAluri_Resume.pdf"; // Ensure this file is in the "public" folder
     link.download = "Sivaprasad.pdf"; // File name for download
     link.click();
   };
