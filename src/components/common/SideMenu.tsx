@@ -14,7 +14,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const SideMenu = () => {
   return (
@@ -58,7 +58,7 @@ const SideMenu = () => {
           {menuItemsList("1.4rem").map((menu, index) => (
             <Link
               activeClass="active"
-              className={menu.navItem}
+              className={menu.navItem}  
               to={menu.navItem}
               spy={true}
               smooth={true}

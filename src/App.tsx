@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Grid2 } from "@mui/material";
+import { Container, Grid2 } from "@mui/material";
 import Header from "./components/common/Header";
 import Home from "./components/Home/Home";
 import { useState } from "react";

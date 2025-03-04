@@ -1,10 +1,15 @@
 import { Box, Divider, Typography } from "@mui/material";
-import React from "react";
 import { Element } from "react-scroll";
 
 const Contact = () => {
+  
   return (
-    <Element name="Contact" className="element" style={{ marginTop: "80px" }}>
+    <Element
+      name="Contact"
+      className="element"
+      style={{ marginTop: "80px" }}
+      id="Contact"
+    >
       <Box
         sx={{
           height: "100vh",
